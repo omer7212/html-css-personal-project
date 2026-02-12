@@ -1,0 +1,97 @@
+:root{
+
+--bg: #5d4037;
+
+--bg2: #3e2723;
+
+--border: #795548;
+
+--border2:#bcaaa4;
+
+}
+
+
+
+
+body{
+
+margin: 0;
+font-family: Arial, Helvetica, sans-serif;
+background-size: cover;
+background-image: url(images/photo1\ \(1\).jpg);
+color: white;
+
+}
+
+
+
+.brand{
+font-size: 40px;
+font-weight: bold;
+color: var(--border);
+text-decoration: none;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+
+}
+
+
+#container{
+padding: 15px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+
+
+.nav{
+color: white;
+text-decoration: none;
+padding: 20px;
+
+
+}
+nav a:hover{
+ background: var(--bg2);
+color: white;
+border-radius: 20px;
+
+
+}
+
+
+
+#our{
+font-size: 35px;
+font-weight: bold;
+text-align: center;
+padding: 20px;
+color: rgb(133, 45, 45);
+}
+
+
+
+.gallery{
+margin: 10px;
+width: 450px;
+}
+
+
+.gallery img{
+
+width: 100%;
+height: auto;
+
+
+}
+
+
+.desc{
+font-size: 30px;
+padding: 20px;
+text-align: center;
+color: #bcaaa4;
+
+}

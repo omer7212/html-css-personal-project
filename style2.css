@@ -1,19 +1,6 @@
-:root{
-
---bg: #5d4037;
-
---bg2: #3e2723;
-
---border: #795548;
-
---border2:#bcaaa4;
-
-}
-
-
-
-
 body{
+
+
 
 margin: 0;
 font-family: Arial, Helvetica, sans-serif;
@@ -22,29 +9,6 @@ background-image: url(images/photo1\ \(1\).jpg);
 color: white;
 
 }
-
-
-
-#top{
-background: var(--bg);
-text-align: center;
-padding: 15px;
-font-size: 15px;
-border-radius: 2px solid var(--border2) ;
-
-}
-
-
-#container{
-padding: 15px;
-display: flex;
-justify-content: space-between;
-align-items: center;
-}
-
-
-
-
 
 .brand{
 font-size: 40px;
@@ -58,8 +22,12 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 }
 
 
-
-
+#container{
+padding: 15px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
 
 
 
@@ -78,40 +46,20 @@ border-radius: 20px;
 
 }
 
-.hero{
+:root{
 
-padding: 120px;
+--bg: #5d4037;
 
+--bg2: #3e2723;
 
+--border: #795548;
 
-}
-
-#hero_title{
-
-font-size: 40px;
-padding: 20px;
-
-
-}
-
-
-#hero_p{
-
-font-size: 20px;
-color: white;
+--border2:#bcaaa4;
 
 }
 
 
 
-#button{
-
-padding: 10px;
-background: white;
-color: black;
-font-size: 20px;
-font-family: 'Times New Roman', Times, serif;
-}
 
 
 #bestsellers_title{
@@ -140,84 +88,21 @@ height: 250px;
 }
 
 .product-card{
-
-    border: 2px solid var(--border);
+border: 2px solid var(--border);
   background: var(--bg2);
     padding: 30px;
     border-radius: 20px;
     text-align: center;
- 
+
+
 }
 
-
-
-
-
-
+    
 .product-card button{
-
+font-family: Verdana, Geneva, Tahoma, sans-serif;
 font-size: 15px;
 padding: 5px 10px;
 color: black;
-background: var(--border2);
+background: darkgrey;
 
 }
-
-
-
-
-
-#footer{
-
-text-align: center;
-padding: 3px;
-background-color: #5d4037;
-color: white;
-
-}
-
-
-
-#get_in{
-
-padding: 20px;
-text-align: center;
-
-
-}
-
-
-#number{
-
-text-align: right;
-padding: 5px;
-color: white;
-
-
-
-}
-
-
-
-#email{
-
-text-align: right;
-text-decoration: dotted;
-
-}
-
-
-#app{
-text-align: left;
-color: black;
-
-
-
-}
-
-
-
-
-
-
-
